@@ -6,10 +6,10 @@
 
 <script>
     export default {
-        name: "HomePage"
+        name: "LotsList"
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="sass" scoped>
 
 </style>

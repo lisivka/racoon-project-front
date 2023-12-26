@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "HomePage"
+        name: "OnlineBidding"
     }
 </script>
 
