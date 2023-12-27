@@ -1,13 +1,13 @@
 <template>
-    <div>
-
-    </div>
+  <p>
+    LotListPage
+  </p>
 </template>
 
 <script>
-    export default {
-        name: "AllLotsPage"
-    }
+  export default {
+    name: 'LotListPage'
+  }
 </script>
 
 <style lang="scss" scoped>

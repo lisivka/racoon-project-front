@@ -1,15 +1,15 @@
 <template>
   <p>
-    HomePage
+    UserProfilePage
   </p>
 </template>
 
 <script>
   export default {
-    name: 'HomePage'
+    name: 'UserProfilePage'
   }
 </script>
 
-<style lang='scss' scoped>
+<style scoped>
 
 </style>
