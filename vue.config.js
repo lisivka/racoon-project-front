@@ -9,4 +9,8 @@ module.exports = defineConfig({
       new Dotenv(),
     ],
   },
-})
+
+  pluginOptions: {
+    vuetify: {},
+  },
+});
