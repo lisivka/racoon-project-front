@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import vuetify from "./plugins/vuetify";
 import App from "./App.vue";
 import store from "./store";
-import router from "./router";
+import router from "./router/index";
 import { loadFonts } from "./plugins/webfontloader";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
