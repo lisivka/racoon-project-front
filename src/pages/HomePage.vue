@@ -1,16 +1,12 @@
 <template>
-  <v-img
-      alt="logo"
-      height="200"
-      class="mt-10"
-      src="@/assets/logo.png"/>
-  <h1 class='project-title'>AUCTIONS</h1>
-  <h1>Welcome </h1>
+  <v-img alt="logo" height="200" class="mt-10" src="@/assets/logo.png" />
+  <h1 class="project-title">AUCTIONS</h1>
+  <h1>Welcome</h1>
 </template>
 
 <script>
 export default {
-  name: 'HomePage',
+  name: "HomePage",
 };
 </script>
 
