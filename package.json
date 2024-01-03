@@ -30,7 +30,7 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "vite": "^3.2.7",
+    "vite": "^5",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "vite-plugin-vuetify": "^2.0.1",
