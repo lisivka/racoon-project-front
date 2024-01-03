@@ -1,0 +1,36 @@
+<template>
+  <div class="button-right mt-2">
+    <BaseButton
+        button-name="Cancel"
+        @click.prevent="cancelButtonClickFunction"
+        class="mr-5"
+    />
+    <BaseButton
+        type="submit"
+        class="mb-5"
+        :button-name="summitButtonName"
+    />
+  </div>
+</template>
+
+<script>
+import BaseButton from '@/components/BaseButton';
+
+export default {
+  name: 'GroupFormButtons',
+  components: {
+    BaseButton,
+  },
+  props: {
+    summitButtonName: String,
+    cancelButtonClickFunction: Function,
+  },
+}
+</script>
+
+<style scoped>
+.button-right {
+  display: flex;
+  justify-content: flex-end;
+}
+</style>
